@@ -7,8 +7,8 @@
 def checking_same_value (random_list):
 
 # print the random list
-    print (f"Given list {random_list}"
-           )
+    print (f"Given list {random_list}")
+    
 # check if the first and last number is equal to each other
     if random_list[0] == random_list[-1]:
         return True
@@ -17,3 +17,8 @@ def checking_same_value (random_list):
         return False
 
 # create a list and print the result 
+first_list = [10, 20, 30, 40, 10]
+print ("This is", checking_same_value(first_list))
+
+second_list = [75, 65, 35, 75, 30]
+print ("This is", checking_same_value(second_list))
